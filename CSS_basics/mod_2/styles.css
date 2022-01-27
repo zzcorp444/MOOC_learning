@@ -1,0 +1,120 @@
+body {
+    background-color:#b7e9adb0 ;
+    margin: 50; 
+   padding: 20 ;
+   position: relative;
+   box-shadow: 
+   0 0 0 10px hsl(129, 85%, 20%),
+   0 0 0 20px hsl(129, 85%, 17%),
+   0 0 0 30px hsl(129, 85%, 14%),
+   0 0 0 40px hsl(129, 85%, 11%),
+   0 0 0 50px hsl(129, 85%, 8%);   
+}
+
+Section, footer, div {
+    border: 10px double rgb(168, 97, 49) ;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+       color:rgb(168, 97, 49) ;
+       text-align:center;
+       font-weight: lighter;
+       font-size: 55px;
+       letter-spacing: 2;
+       word-spacing: 2;
+       font-family:'serif';
+       border: 10px inset #46aa43;
+       padding: 10px; 
+       text-shadow: 3px 3px 15px #096818;    
+}
+
+header #quote {
+    text-align: center;
+    font-family:cursive,'Brush script MT';
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 40px;
+    text-decoration-style: ;
+    border: 10px outset rgb(168, 97, 49);
+    background-color:#46aa43;
+    color:black;
+    text-shadow: 7px 7px 15px rgb(168, 97, 49);
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.style{
+    color:rgb(168, 97, 49) ;
+    text-align:left;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 2;
+    word-spacing: 2;
+    font-family:'serif';
+    text-decoration:rgb(168, 97, 49) underline; 
+    margin-left: 10px;
+    text-shadow: 3px 3px 15px #096818;   
+}
+
+.text{
+    font-family:'Franklin Gothic Medium';
+    font-weight: bold;
+    color: #096818;
+    margin-left: 30;
+    font-size: 20px;
+}
+
+#safety {
+    margin-left: 70px;
+}
+
+.work{
+    color: rgb(168, 97, 49);
+    margin-left: 30px;
+    font-size: 25px;
+    letter-spacing: 1;
+    word-spacing: 1;
+    font-family: 'serif';
+    text-decoration:rgb(168, 97, 49) underline;
+
+}
+
+li {
+    margin-left: 30;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#web{
+    font-family:'Franklin Gothic Medium';
+    font-weight: bold;
+    color: #096818;
+    margin-left: 30;
+    font-size: 20px;
+}
+
+.text li:hover{
+    color:gray;
+    text-decoration: red underline;
+}
+
+#web li a:link {
+    color: #096818;
+}
+
+#web li:hover {
+    color:red;    
+}
+
+#web li a :active {
+    color: red;
+}
+
+#web li a:visited {
+    color: rgb(102, 117, 106);
+}

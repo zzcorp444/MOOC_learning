@@ -1,0 +1,87 @@
+﻿
+
+body {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+}
+
+
+header {
+    border: 3px solid black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+#title {
+    position: relative;
+    top: 7px;
+    margin: 20px;
+    float: none;
+    text-align: left;
+}
+
+#contact {
+    position: relative;
+    top: -4px;
+    right: 20px;
+    float: right;
+}
+
+#leftside {
+    position: relative;
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 2px solid black;
+    background-color: white;
+    width: 65%;
+    height: auto;
+}
+
+#rightside {
+    position: relative;
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    float: right;
+    width: 31%;
+    height: auto;
+}
+
+#bottomside {
+    background-color: lightgray;
+    border: 2px solid black;
+    position: relative;
+    width: auto;
+    height: auto;
+    clear: both;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+}
+
+table, section h2 {
+    margin: 10px;
+}
+
+.td {
+    border-right: 2px #000000 solid;
+}
+
+.top {
+    border-top: 2px #000000 solid;
+}
+
+td {
+    padding: 10px;
+}
+
