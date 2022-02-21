@@ -1,0 +1,25 @@
+body {
+    background-color: grey;
+    padding-left: 10px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+
+
+h1 {
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+address {
+    padding-left: 20px;
+}
+
+p {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: ;
+}

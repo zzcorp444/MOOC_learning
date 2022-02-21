@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Roboto+Condensed:wght@300&family=Roboto+Mono&family=Supermercado+One&display=swap');
+
+body{background: beige;
+border-style: double;
+  border-width: 10px;
+  border-color: sienna;}
+
+header{ background: sienna;
+color: beige;
+text-align: center;
+margin-left:20px;
+margin-right: 20px;
+margin-bottom: 10px;
+padding-bottom: 0.25rem;}
+
+h1{ font-family: "neonderthaw";
+font-size:3rem;
+font-weight: 300;}
+
+a {color: black;
+font-family: "Roboto Mono"}
+
+nav li { list-style-type: square;
+List-style-position: inside}
+
+#content{ border-image-source:linear-gradient(to bottom, black, slategrey, grey, lightgrey);}
+#soup{
+  Margin-left:20px;
+  margin-right:20px;
+  border-style: solid;
+  border-width: 7px;
+  border-image-source: linear-gradient(to bottom, black, grey)
+}
+
+#salad{
+  margin-left:20px;
+  margin-right: 20px;
+  border-style:none solid solid;
+  border-width: 7px;
+ border-image-source: linear-gradient(to bottom, grey, lightgrey)
+
+}
+
+#sauce{
+  margin-left:20px;
+  margin-right:20px;
+  border-style: none solid solid;
+  border-width: 7px;
+ border-image-source: linear-gradient(to bottom, lightgrey, beige);
+  padding:10px
+}
+
+hr { width:300px;
+}
+
+.directions, .ingredients { margin-left:1.9rem;
+  line-height: 2em;
+  font-family: "roboto condensed"
+}
+
+p{ text-align: center;
+margin-left: 0.5rem;
+margin-right: 0.5rem;
+margin-bottom: 1rem;
+margin-top: 2rem;
+font-family: "roboto condensed";
+font-weight: 600;
+font-size:1.1rem;
+
+/*border-bottom-style: solid ;
+border-color: RGBA( 250, 128, 114, 50%);
+border-width:0.15rem;*/
+}
+
+
+h2 { text-align: center;
+text-decoration: underline;
+font-family: "supermercado one";
+color: sienna;
+font-size: 1.7rem}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right:auto;}
+
+h3{ font-weight:900;
+  text-decoration:underline;
+}
+article {
+  border-image-slice: 1;
+  padding-top: 0.5rem;
+}
+img{
+  border:5px solid maroon;
+  padding: 0.5rem;
+}
+    </style>
+ <meta charset="UTF-8">
+
+<title>My favorite Recipes</title>
+</head>
+    <body>
+        <header>
+      <h1> My Favorite Receipes </h1>
+      <nav>
+          <ul>
+              <li><a href="#soup"> Vegetable Soup </a></li>
+              <li> <a href="#salad"S> Salad </a> </li>
+              <li><a href="#sauce"> Cranberry Sauce</a></li>
+
+          </ul>
+      </nav>
+
+    </header>
+ <div id="content">
+    <article id="soup">
+      <h2 class="name"> Vegetable Soup</h2>
+      <img src="https://www.inspiredtaste.net/wp-content/uploads/2018/10/Homemade-Vegetable-Soup-Recipe-2-1200.jpg" alt="vegetable soup" width="320" class="center">
+      <p> This is a hearty, homemade <strong>vegetarian friendly</strong> vegetable soup that I've been perfecting since I went to high school.</p>
+
+      <section class="ingredients">
+      <h3> Ingredients </h3>
+      <ul >
+          <li> 2 diced yellow onions </li>
+          <li> 1 Leek, Chopped </li>
+          <li> 4 Carrots chopped and halved </li>
+          <li> 4 stalks of celery chopped </li>
+          <li> 2 potatoes, cubed and <em>soaked overnight</em></li>
+          <li> 1 bag frozen mixed vegetables</li>
+          <li> Knorr vegetable boullian </li>
+          <li> White pepper</li>
+          <li> Italian herbs </li>
+      </ul>
+      </section>
+      <section class="directions">
+      <h3> Directions </h3>
+      <ol>
+          <li> Soak potatoes overnight</li>
+          <li> Add 6 cups of water to a pot and bring to a boil</li>
+          <li> Add potatoes, onions, carrots and celery to pot and reduce to simmer</li>
+          <li> Let simmer for 30 mins</li>
+          <li> Next add the remaining ingredients and let soup sit until flavors homogeonize </li>
+        </ol>
+      </section>
+      </article>
+      <article id="salad">
+          <h2 class="name"> Salad </h2>
+          <img src="https://www.acouplecooks.com/wp-content/uploads/2019/05/Chopped-Salad-007.jpg" alt="a delicious salad" width="320" class="center">
+          <p> A delicious salad </p>
+
+        <section class="ingredients">
+          <h3> Ingredients </h3>
+          <ul>
+              <li> Lettuce or green leafy vegetable of your choice </li>
+              <li> Assorted other vegetables i.e. onions, tomatoes, bell peppers, radishes. </li>
+              <li> Dressing of your choice, I chose italian but it's really up to you! </li>
+            <li> Cheese if you so desire </li>
+          </ul>
+      </section>
+  <section class="directions">
+          <h3> Directions </h3>
+          <ol>
+              <li> Chop up vegetables into appropriate salad sizes--think about how you will pick it up with your fork. </li>
+              <li> Toss all of the vegetables and the cheese together. </li>
+              <li> You can also toss the salad in the dressing but depending on your family or the group you are serving it may be better served on the side. </li>
+          </ol>
+  </section>
+      </article>
+      <article id="sauce">
+      <h2 class="name"> Nora's Famous Cranberry Sauce </h2>
+      <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-homemade-cranberry-sauce-1-1541709743.jpg?crop=1xw:1xh;center,top&resize=640:*" alt="cranberry sauce"width="320" class="center">
+      <p>  This is my favorite cranberry sauce recipe.  As a child I only had canned cranberry sauce and I hated it.  Cranberry sauce is easy to make and superior to the canned cranberry found in stores.
+
+        <section  class="ingredients">
+      <h3> Ingredients  </h3>
+      <ul>
+        <li> Cranberries </Li>
+      <li> Orange Juice </li>
+      <li> Sugar </li>
+      <li> Orange Zest </li>
+      </ul>
+        </section>
+<section class="directions">
+  <h3> Directions </h3>
+  <ol>
+    <li> Boil water, orange juice, and sugar in a medium sized pan. </li>
+    <li> Once water and sugar have boiled to become a syrup add cranberries and orange zest.  </li>
+    <li> Simmer until cranberries burst. </li>
+    <li> Cool until served </li>
+    </ol>
+</section>
+      </article>
+      </div>
+
+     </body>
+</html>
